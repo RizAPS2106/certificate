@@ -47,7 +47,7 @@
                         <div class="d-flex flex-column align-items-center">
                             <h5 class='given-to'>Diberikan Kepada</h5>
                             <div class="name">
-                                <h2 class="name-text">{{ $data['nama'] }} ggg</h2>
+                                <h2 class="name-text">{{ $data['nama'] }}</h2>
                             </div>
                             <p class="content-title">Telah Melaksanakan</p>
                             <p class="content">
