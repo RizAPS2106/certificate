@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    @googlefonts
     <link rel="stylesheet" href="{{ base_path('public/assets/css/pdf-styles.css') }}">
 </head>
 
 <body>
     {{-- page 1 --}}
     <div class="page">
-        <div class="base-container">
+        <div class="base-container d-flex justify-content-center align-items-center">
             <div class="main-container">
                 <div class="container">
                     <section class="logo-container">
@@ -46,7 +47,7 @@
                         <div class="d-flex flex-column align-items-center">
                             <h5 class='given-to'>Diberikan Kepada</h5>
                             <div class="name">
-                                <h2 class="name-text">{{ $data['nama'] }}</h2>
+                                <h2 class="name-text">{{ $data['nama'] }} ggg</h2>
                             </div>
                             <p class="content-title">Telah Melaksanakan</p>
                             <p class="content">
@@ -93,7 +94,7 @@
 
     {{-- page 4 --}}
     <div class="page">
-        <div class="base-container">
+        <div class="base-container d-flex justify-content-center align-items-center">
             <div class="main-container">
                 <div class="container">
                     <section class="logo-container">
@@ -169,7 +170,7 @@
 
     {{-- page 3 --}}
     <div class="page three">
-        <div class="base-container">
+        <div class="base-container d-flex justify-content-center align-items-center">
             <div class="main-container">
                 <div class="container">
                     <section class="header-container">
