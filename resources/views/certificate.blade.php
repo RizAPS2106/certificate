@@ -91,6 +91,82 @@
         </div>
     </div>
 
+    {{-- page 4 --}}
+    <div class="page">
+        <div class="base-container">
+            <div class="main-container">
+                <div class="container">
+                    <section class="logo-container">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div><img src="{{ base_path('public/assets/images/bumn1.png') }}" alt="logo"
+                                    class="logo">
+                            </div>
+                            <div><img src="{{ base_path('public/assets/images/bumn2.png') }}" alt="logo"
+                                    class="logo">
+                            </div>
+                            <div><img src="{{ base_path('public/assets/images/telkom.png') }}" alt="logo"
+                                    class="logo">
+                            </div>
+                            <div><img src="{{ base_path('public/assets/images/fhci.png') }}" alt="logo"
+                                    class="logo">
+                            </div>
+                            <div><img src="{{ base_path('public/assets/images/magenta.png') }}" alt="logo"
+                                    class="logo">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="title-container">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="title">
+                                <h1 class="title-text">SERTIFIKAT</h1>
+                            </div>
+                            <span class="subtitle">Nomor : {{ $data['nomor'] }}</span>
+                        </div>
+                    </section>
+                    <section class="content-container">
+                        <div class="d-flex flex-column align-items-center">
+                            <h5 class='given-to'>Diberikan Kepada</h5>
+                            <div class="name">
+                                <h2 class="name-text">{{ $data['nama'] }}</h2>
+                            </div>
+                            <p class="content-title">Telah Melaksanakan</p>
+                            <p class="content">
+                                MAGANG GENERASI BERTALENTA BUMN (MAGENTA BUMN) di <b>PT Telkom Indonesia (Persero)
+                                    Tbk</b>
+                                pada posisi
+                                <b>UI Designer</b>, mulai dari tanggal 21 Oktober 2022 sampai tanggal 21 Januari 2023
+                                dengan
+                                hasil
+                                <b>{{ $total_string }}</b>
+                            </p>
+                            <p class="content-end mt-4">Jakarta, 10 November 2022</p>
+                        </div>
+                    </section>
+                    <section class="footer-container">
+                        <div class="d-flex justify-content-center">
+                            <div class="d-flex flex-column align-items-center">
+                                <p class="from">Kementrian BUMN</p>
+                                <p class="who">Erick Thohir</p>
+                                <p class="role">Menteri BUMN</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <section class="code">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class='qr-code-text'>
+                            <span>QR Code Verifikasi Sertifikat</span>
+                        </div>
+                        <div>
+                            <img src="{{ base_path('public/assets/images/' . $data['qrcode']) }}" alt="qr-code"
+                                class='qr-code' />
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
     {{-- page 3 --}}
     <div class="page three">
         <div class="base-container">
@@ -232,82 +308,6 @@
                         </div>
                     </section>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    {{-- page 4 --}}
-    <div class="page">
-        <div class="base-container">
-            <div class="main-container">
-                <div class="container">
-                    <section class="logo-container">
-                        <div class="d-flex justify-content-center align-items-center">
-                            <div><img src="{{ base_path('public/assets/images/bumn1.png') }}" alt="logo"
-                                    class="logo">
-                            </div>
-                            <div><img src="{{ base_path('public/assets/images/bumn2.png') }}" alt="logo"
-                                    class="logo">
-                            </div>
-                            <div><img src="{{ base_path('public/assets/images/telkom.png') }}" alt="logo"
-                                    class="logo">
-                            </div>
-                            <div><img src="{{ base_path('public/assets/images/fhci.png') }}" alt="logo"
-                                    class="logo">
-                            </div>
-                            <div><img src="{{ base_path('public/assets/images/magenta.png') }}" alt="logo"
-                                    class="logo">
-                            </div>
-                        </div>
-                    </section>
-                    <section class="title-container">
-                        <div class="d-flex flex-column align-items-center">
-                            <div class="title">
-                                <h1 class="title-text">SERTIFIKAT</h1>
-                            </div>
-                            <span class="subtitle">Nomor : {{ $data['nomor'] }}</span>
-                        </div>
-                    </section>
-                    <section class="content-container">
-                        <div class="d-flex flex-column align-items-center">
-                            <h5 class='given-to'>Diberikan Kepada</h5>
-                            <div class="name">
-                                <h2 class="name-text">{{ $data['nama'] }}</h2>
-                            </div>
-                            <p class="content-title">Telah Melaksanakan</p>
-                            <p class="content">
-                                MAGANG GENERASI BERTALENTA BUMN (MAGENTA BUMN) di <b>PT Telkom Indonesia (Persero)
-                                    Tbk</b>
-                                pada posisi
-                                <b>UI Designer</b>, mulai dari tanggal 21 Oktober 2022 sampai tanggal 21 Januari 2023
-                                dengan
-                                hasil
-                                <b>{{ $total_string }}</b>
-                            </p>
-                            <p class="content-end mt-4">Jakarta, 10 November 2022</p>
-                        </div>
-                    </section>
-                    <section class="footer-container">
-                        <div class="d-flex justify-content-center">
-                            <div class="d-flex flex-column align-items-center">
-                                <p class="from">Kementrian BUMN</p>
-                                <p class="who">Erick Thohir</p>
-                                <p class="role">Menteri BUMN</p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <section class="code">
-                    <div class="d-flex flex-column align-items-center">
-                        <div class='qr-code-text'>
-                            <span>QR Code Verifikasi Sertifikat</span>
-                        </div>
-                        <div>
-                            <img src="{{ base_path('public/assets/images/' . $data['qrcode']) }}" alt="qr-code"
-                                class='qr-code' />
-                        </div>
-                    </div>
-                </section>
             </div>
         </div>
     </div>
