@@ -1,0 +1,59 @@
+{
+    "internships":[
+        { "id":"1", "nomor":"111222331", "nim":"123456787", "nama":"John Doe", "fakultas": "IT", "perguruanTinggi": "Telkom", "posisi": "UI Designer", "qrcode": "qr-code.png",
+            "performance" :[
+                {
+                    "name":"integritas", "nilai":80, "nilai_s":"delapan puluh", "ket":"Integritas (Etika, Moral, dan Kesungguhan)"
+                },{
+                    "name":"waktu", "nilai":81, "nilai_s":"delapan puluh satu", "ket":"Ketepatan waktu dalam bekerja"
+                },{
+                    "name":"keahlian", "nilai":93, "nilai_s":"sembilan puluh tiga", "ket":"Keahlian berdasarkan bidang ilmu"
+                },{
+                    "name":"kerjasama", "nilai":85, "nilai_s":"delapan puluh lima", "ket":"Kerjasama dalam tim "
+                },{
+                    "name":"komunikasi", "nilai":87, "nilai_s":"delapan puluh tujuh", "ket":"Komunikasi"
+                },{
+                    "name":"teknologi", "nilai":89, "nilai_s":"delapan puluh sembilan", "ket":"Penggunaan teknologi informasi"
+                },{
+                    "name":"pengembangan", "nilai":90, "nilai_s":"sembilan puluh", "ket":"Pengembangan diri"
+                }
+            ]
+        },
+        { "id":"2", "nomor":"111222332", "nim":"123456788", "nama":"Anna", "fakultas": "IT", "perguruanTinggi": "Telkom", "posisi": "UI Designer", "qrcode": "qr-code.png",
+            "performance" :[
+                {
+                    "name":"integritas", "nilai":80, "nilai_s":"delapan puluh", "ket":"Integritas (Etika, Moral, dan Kesungguhan)"
+                },{
+                    "name":"waktu", "nilai":81, "nilai_s":"delapan puluh satu", "ket":"Ketepatan waktu dalam bekerja"
+                },{
+                    "name":"keahlian", "nilai":93, "nilai_s":"sembilan puluh tiga", "ket":"Keahlian berdasarkan bidang ilmu"
+                },{
+                    "name":"kerjasama", "nilai":85, "nilai_s":"delapan puluh lima", "ket":"Kerjasama dalam tim "
+                },{
+                    "name":"komunikasi", "nilai":87, "nilai_s":"delapan puluh tujuh", "ket":"Komunikasi"
+                },{
+                    "name":"teknologi", "nilai":89, "nilai_s":"delapan puluh sembilan", "ket":"Penggunaan teknologi informasi"
+                },{
+                    "name":"pengembangan", "nilai":90, "nilai_s":"sembilan puluh", "ket":"Pengembangan diri"
+                }
+            ]},
+        { "id":"3", "nomor":"111222333", "nim":"123456789", "nama":"Peter", "fakultas": "IT", "perguruanTinggi": "Telkom", "posisi": "UI Designer", "qrcode": "qr-code.png",
+            "performance" :[
+                {
+                    "name":"integritas", "nilai":80, "nilai_s":"delapan puluh", "ket":"Integritas (Etika, Moral, dan Kesungguhan)"
+                },{
+                    "name":"waktu", "nilai":81, "nilai_s":"delapan puluh satu", "ket":"Ketepatan waktu dalam bekerja"
+                },{
+                    "name":"keahlian", "nilai":93, "nilai_s":"sembilan puluh tiga", "ket":"Keahlian berdasarkan bidang ilmu"
+                },{
+                    "name":"kerjasama", "nilai":85, "nilai_s":"delapan puluh lima", "ket":"Kerjasama dalam tim "
+                },{
+                    "name":"komunikasi", "nilai":87, "nilai_s":"delapan puluh tujuh", "ket":"Komunikasi"
+                },{
+                    "name":"teknologi", "nilai":89, "nilai_s":"delapan puluh sembilan", "ket":"Penggunaan teknologi informasi"
+                },{
+                    "name":"pengembangan", "nilai":90, "nilai_s":"sembilan puluh", "ket":"Pengembangan diri"
+                }
+            ]}
+    ]
+}
