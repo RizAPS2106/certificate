@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Internship;
-use App\Http\Requests\StoreInternshipRequest;
-use App\Http\Requests\UpdateInternshipRequest;
 use SnappyPDF;
 use Terbilang;
+use App\Models\Internship;
+use Jenssegers\Agent\Agent;
+use App\Http\Requests\StoreInternshipRequest;
+use App\Http\Requests\UpdateInternshipRequest;
 
 class InternshipController extends Controller
 {
@@ -90,6 +91,14 @@ class InternshipController extends Controller
 
     public function PDFExport(Internship $internship, $id)
     {
+        $agent = new Agent();
+        $platform = $agent->platform();
+
+        if (stripos($platform, 'MAC') !== false || stripos($platform, 'OS') !== false) {
+            config(['snappy.pdf.binary' => base_path('public/assets/binary/wkhtmltopdf-mac')]);
+            config(['snappy.image.binary' => base_path('public/assets/binary/wkhtmltoimage-mac')]);
+        }
+
         $id = (int)$id;
         $id = $id - 1;
         $data_str = file_get_contents('assets/data/data1.json');

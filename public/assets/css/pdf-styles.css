@@ -1,4 +1,4 @@
-@media print {
+@media print {  
     @page { size: landscape; }
 }
 

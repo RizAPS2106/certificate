@@ -35,7 +35,7 @@ return [
 
     'pdf' => [
         'enabled' => true,
-        'binary'  => base_path('public/assets/binary/wkhtmltopdf-amd64'),
+        'binary'  => base_path('public/assets/binary/wkhtmltopdf'),
         'timeout' => false,
         'options' => [
             'disable-external-links' => false,
@@ -49,7 +49,7 @@ return [
 
     'image' => [
         'enabled' => true,
-        'binary'  => base_path('public/assets/binary/wkhtmltoimage-amd64'),
+        'binary'  => base_path('public/assets/binary/wkhtmltoimage'),
         'timeout' => false,
         'options' => [
             'disable-external-links' => false,
